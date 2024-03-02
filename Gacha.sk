@@ -2,3 +2,7 @@ on drop:
     if event-item is dirt:
         chance of 50%:
             execute console command "give %player% cobblestone"
+on drop:
+    if event-item is cobblestone:
+        chance of 50%:
+            execute console command "give %player% iron ingot"
