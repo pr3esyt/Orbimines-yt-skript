@@ -2,7 +2,11 @@ on drop:
     if event-item is dirt:
         chance of 50%:
             execute console command "give %player% cobblestone"
+        else:
+            remove 1 dirt from player's inventory
 on drop:
     if event-item is cobblestone:
         chance of 50%:
             execute console command "give %player% iron ingot"
+        else:
+           remove 1 iron ingot from player's inventory
