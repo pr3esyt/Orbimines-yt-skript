@@ -1,4 +1,4 @@
 when drop:
    if event item is dirt:
       for percent of 50
-        give %player% cobblestone
+        execute console command ("give %player% cobblestone")
