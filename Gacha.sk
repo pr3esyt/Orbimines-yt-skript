@@ -1,1 +1,4 @@
-send ("more sus")
+when drop:
+   if event item is dirt:
+      for percent of 50
+        give %player% cobblestone
