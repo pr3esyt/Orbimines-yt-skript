@@ -1,11 +1,21 @@
 
 on rightclick with oak log:
-    chance of 40%:
+    chance of 80%:
         remove 1 oak log from player's inventory
         give 1 cobblestone to player
-on drop:
-    if event-item is cobblestone:
-        chance of 50%:
-            execute console command "give %player% iron ingot"
-        else:
-           remove 1 iron ingot from player's inventory
+        send "you got upgrade"
+on rightclick with cobblestone:
+    chance of 60%:
+        remove 1 cobblestone from player's inventory
+        give 1 iron ingot to player
+        send "you got upgrade"
+on rightclick with iron ingot:
+    chance of 40%:
+        remove 1 iron ingot from player's inventory
+        give 1 diamond to player
+        send "you got upgrade"
+on rightclick with diamond:
+    chance of 40%:
+        remove 1 diamond from player's inventory
+        give 1 netherite scrap to player
+        send "you got upgrade"
