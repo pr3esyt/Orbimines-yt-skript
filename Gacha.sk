@@ -1,21 +1,25 @@
 
-on rightclick with oak log:
+on rightclick on oak log:
     chance of 80%:
         remove 1 oak log from player's inventory
         give 1 cobblestone to player
-        send "you got upgrade"
-on rightclick with cobblestone:
+        send "You got an upgrade!"
+
+on rightclick on cobblestone:
     chance of 60%:
         remove 1 cobblestone from player's inventory
         give 1 iron ingot to player
-        send "you got upgrade"
-on rightclick with iron ingot:
+        send "You got an upgrade!"
+
+on rightclick on iron ingot:
     chance of 40%:
         remove 1 iron ingot from player's inventory
         give 1 diamond to player
-        send "you got upgrade"
-on rightclick with diamond:
+        send "You got an upgrade!"
+
+on rightclick on diamond:
     chance of 5%:
         remove 1 diamond from player's inventory
         give 1 netherite scrap to player
-        send "you got upgrade"
+        send "You got an upgrade!"
+
