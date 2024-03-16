@@ -15,7 +15,7 @@ on rightclick with iron ingot:
         give 1 diamond to player
         send "you got upgrade"
 on rightclick with diamond:
-    chance of 40%:
+    chance of 5%:
         remove 1 diamond from player's inventory
         give 1 netherite scrap to player
         send "you got upgrade"
