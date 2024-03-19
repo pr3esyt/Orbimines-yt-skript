@@ -1,35 +1,35 @@
-
-on rightclick on oak log:
+on rightclick of oak log:
     chance of 30%:
-        remove 1 oak log from player's inventory
+        remove 1 oak log from player
         give 1 cobblestone to player
         send "You got an upgrade!"
 
-on rightclick on cobblestone:
+on rightclick of cobblestone:
     chance of 20%:
-        remove 1 cobblestone from player's inventory
+        remove 1 cobblestone from player
         give 1 coal to player
         send "You got an upgrade!"
-on rightclick on coal:
+
+on rightclick of coal:
     chance of 10%:
-        remove 1 coal from player's inventory
+        remove 1 coal from player
         give 1 copper ingot to player
         send "You got an upgrade!"
-on rightclick on copper ingot:
+
+on rightclick of copper ingot:
     chance of 8%:
-        remove 1 copper ingot from player's inventory
+        remove 1 copper ingot from player
         give 1 iron ingot to player
         send "You got an upgrade!"
 
-on rightclick on iron ingot:
+on rightclick of iron ingot:
     chance of 10%:
-        remove 1 iron ingot from player's inventory
+        remove 1 iron ingot from player
         give 1 diamond to player
         send "You got an upgrade!"
 
-on rightclick on diamond:
+on rightclick of diamond:
     chance of 1%:
-        remove 1 diamond from player's inventory
+        remove 1 diamond from player
         give 1 netherite scrap to player
         send "You got an upgrade!"
-
